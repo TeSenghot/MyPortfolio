@@ -1,0 +1,167 @@
+body{
+background-color:rgb(196, 196, 196);
+margin-top:10px;
+margin-left:0px;
+}
+#bannercolor{
+background-color: rgb(208, 208, 208);
+height:50px;
+width:100%;
+margin-top:0px;
+position:absolute;
+z-index:-1;
+}
+
+
+
+
+
+
+ul{
+    float:right;
+    margin-top:10px;
+    margin-right:100px;
+}
+.menu{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* This the dropdown list */
+li{
+    display:inline-block;
+    padding:10px 30px;
+    
+
+}
+li:hover {
+    background-color: rgb(133, 181, 237);
+    border-radius: 10px;
+}
+.drop{
+   visibility: hidden;
+    position:absolute;
+    background-color: rgb(55, 255, 108);
+    text-align:center;
+    border-radius:10px;
+    margin-left:-40px;
+    padding:1px 5px;
+    z-index:1;
+  
+}
+.drop li{
+display:block;
+padding:4px 15px;
+
+
+}
+
+li:hover .drop{
+    visibility:visible;  
+}
+/*-------*/
+
+a{
+    text-decoration:none;
+    font-size:25px;  
+}
+.drop a{
+    color: rgb(255, 255, 255);
+    font-size:20px;
+     
+}
+.drop a:hover {
+    color:rgb(58, 31, 210);
+    font-size:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logo{
+    list-style:none;
+    position:absolute;
+    margin-top:10px;
+    font-size:25px;
+    font-weight:bold;
+    color:rgb(143, 37, 223);
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#div1{
+    position:absolute;
+    margin-left:20px;
+    margin-top:100px;
+}
+#span1{
+    letter-spacing: 5px;
+}
+#span2{
+    color:rgb(20, 33, 152);
+    
+}
+
+ #img1{
+    position:absolute;
+    
+    margin-top:-310px;
+    margin-left: 600px;
+    height:400px;
+    width: 600px;
+    border: rgb(171, 171, 171) 10px solid; 
+    border-radius:10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgb(165, 165, 165);
+}
+ #img2 {  
+    z-index:1; 
+position:absolute;
+margin-top:-200px;
+margin-left: 750px;
+ height:450px;
+ width:600px;
+ border: rgb(52, 215, 166) 10px solid; 
+ border-radius:10px;
+ box-sizing: border-box;
+ box-shadow: 5px 10px 5px 10px rgb(165, 165, 165);
+}
+#p1{
+    padding-top:100px;
+    margin-left:30px;
+    color:rgb(255, 255, 255);
+    font-size:25px;
+}
+#h1{
+    color:white;
+    margin-left:30px;
+}
+#p2{
+    margin-left:30px;
+}
+
+
+#home{
+    
+    box-shadow: 2px 2px gray;
+    border-radius: 5px;
+    background-color:rgb(227, 227, 227);
+    font-weight:bold;
+}
+#portfolio{
+    background:linear-gradient(purple,blue);
+}
+#footer{
+    font-size:40px;
+    padding:40px;
+    color:rgb(200, 13, 213);
+
+}
