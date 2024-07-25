@@ -108,6 +108,7 @@ a{
 }
 #me{
     max-width:100%;
+    height:auto;
     float:right;
     padding:5px;
     border-radius: 40px;
