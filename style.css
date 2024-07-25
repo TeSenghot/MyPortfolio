@@ -108,9 +108,6 @@ a{
 }
 #me{
     float:right;
-    width:480px;
-    height:480px;
-    margin-right:160px;
     padding:5px;
     border-radius: 40px;
     box-shadow: 5px 5px 0px 0px rgb(165, 51, 227);
