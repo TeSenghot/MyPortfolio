@@ -87,6 +87,7 @@ a{
 }
 #span1{
     letter-spacing: 5px;
+    font-size: 45px;
 }
 #span2{
     color:rgb(20, 33, 152);
@@ -94,6 +95,7 @@ a{
 }
 #img{
   max-width:100%;
+  margin-top:150px;
 }
 
 #me{
